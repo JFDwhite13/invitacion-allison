@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(228, 253, 250);
+	background-color: rgb(238, 232, 255);
 }
 
 .header h1,h2,h3,h4,h5,h6{
@@ -10,7 +10,7 @@ body{
 
 }
 .exclusive{
-	color:rgb(0, 145, 202) ;
+	color:rgb(144, 78, 252) ;
 }
 
 .btton{
@@ -22,8 +22,8 @@ body{
 
 .btton a{
     padding: 10px;
-    border: solid rgb(0, 145, 202) 2px;
-    background-color: rgb(0, 145, 202) ;
+    border: solid rgb(144, 78, 252)  2px;
+    background-color: rgb(144, 78, 252) ;
     border-radius: 4px;
     box-shadow: 0px 1px 6px 4px rgb(190, 190, 190);
 }
@@ -39,11 +39,11 @@ body{
 #countdown div {
     text-align: center;
 	align-content: center;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 #countdown span {
     font-weight: bold;
-    color:rgb(0, 145, 202) ;
+    color:rgb(144, 78, 252) ;
 }
 .smalltext {
     font-size: 12px;
@@ -54,5 +54,23 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 30px;
-    background-color: rgb(181, 226, 226);
+    background-color: rgb(191, 181, 226);
+}
+
+.cont{
+    padding: 10px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    height: 100px;
+    width: 200px;
+}
+.map{
+    display: flex;
+    justify-content: center;
 }
