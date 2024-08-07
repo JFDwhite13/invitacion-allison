@@ -15,3 +15,15 @@ function countdown() {
 }
 
 setInterval(countdown, 1000);
+
+document.getElementById("addReminder").addEventListener("click", function() {
+    const title = "15 años allison";
+    const details = "Fiesta de 15 años allison mariana";
+    const location = "calle 48c #21-50";
+    const startDate = "20241019T240000Z"; // Formato: YYYYMMDDTHHmmssZ
+    const endDate = "20241020T100000Z"; // Formato: YYYYMMDDTHHmmssZ
+
+    const url = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}&dates=${startDate}/${endDate}`;
+
+    window.open(url, "_blank");
+});
