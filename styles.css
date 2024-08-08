@@ -1,6 +1,5 @@
 body{
-	/* background-color: rgb(228, 253, 250);*/
-    background-image: url(img/fondo.jpg);
+	background-color: rgb(228, 253, 250);
 }
 
 .header h1,h2,h3,h4,h5,h6{
@@ -96,4 +95,8 @@ body{
 
 .head{
     margin-top: 40px;
+}
+
+.text2{
+    margin-bottom: 40px;
 }
