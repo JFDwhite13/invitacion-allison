@@ -2,7 +2,7 @@ body{
 	background-color: rgb(228, 253, 250);
 }
 
-.header h1,h2,h3,h4,h5,h6{
+.header h1,h2,h3,h4,h5,h6,p{
 	font-family: "Dancing Script", cursive;
 	font-optical-sizing: auto;
 	font-weight: 700;
@@ -30,6 +30,10 @@ body{
     text-align: center;
     color: white;
     margin-bottom: 10px;
+}
+
+.btton:hover{
+    cursor: pointer;
 }
 
 
@@ -80,13 +84,10 @@ body{
 }
 
 .img img{
-    height: 100px;
-    width: 200px;
+    height: 130px;
+    width: 130px;
 }
-.map{
-    display: flex;
-    justify-content: center;
-}
+
 
 .firstcontent{
     margin: 20px;
@@ -99,4 +100,23 @@ body{
 
 .text2{
     margin-bottom: 40px;
+}
+
+.celebration{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.celebration h1{
+    margin-bottom:0%;
+}
+
+.celebration2{
+    margin-top: 20px;
+}
+.celebration2 p{
+    margin-bottom: 0px;
+}
+.celebration2 .btton{
+    margin: 20px;
 }

@@ -27,3 +27,9 @@ document.getElementById("addReminder").addEventListener("click", function() {
 
     window.open(url, "_blank");
 });
+
+document.getElementById("map").addEventListener("click", function() {
+	const url = "https://maps.app.goo.gl/RZ6vyP3YQyHCBDs7A";
+
+	window.open(url, "_blank");
+});
