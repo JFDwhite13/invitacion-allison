@@ -26,6 +26,11 @@ body{
 	color:rgb(0, 145, 202) ;
 }
 
+#exclusive{
+	color:rgb(0, 145, 202) ;
+}
+
+
 .btton{
     text-align: center;
     color: white;
@@ -119,4 +124,54 @@ body{
 }
 .celebration2 .btton{
     margin: 20px;
+}
+.repr{
+    display: flex;
+    justify-content: center;
+}
+.reproductor {
+    
+    width: 50%; /* Ancho del reproductor */
+    border: none; /* Sin borde */
+    border-radius: 0px ; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+
+}
+.reproductor::-webkit-media-controls-panel {
+    background-color: rgb(139, 222, 255) ; /* Color de fondo de los controles */
+}
+
+.vest{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vest img{
+    width: 140px ;
+    height: 140px;
+}
+
+.d p,h1{
+    margin: 0px;
+}
+.mesa{
+    margin-top: 40px;
+}
+
+.im2{
+    display: flex;
+    justify-content: center;
+}
+.mesa p{
+    margin: 0px;
+}
+
+.im2 img{
+    width: 200px;
+    height: 200px;
+}
+
+.confirmar{
+    padding-top: 20px;
 }

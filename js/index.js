@@ -33,3 +33,9 @@ document.getElementById("map").addEventListener("click", function() {
 
 	window.open(url, "_blank");
 });
+
+document.getElementById("woasap").addEventListener("click", function(){
+	const url = "https://api.whatsapp.com/send?phone=573133510833&text=Hola%20Mariana%20confirmo%20mi%20asistencia%20a%20tus%2015"
+
+	window.open(url, "_blank")
+});
