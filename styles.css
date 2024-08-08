@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(238, 232, 255);
+	background-color: rgb(228, 253, 250);
 }
 
 .header h1,h2,h3,h4,h5,h6{
@@ -7,10 +7,23 @@ body{
 	font-optical-sizing: auto;
 	font-weight: 700;
 	text-align: center;
+}
+
+.imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 
 }
+
+.imag img{
+    height: 100px;
+    width: 200px;
+}
+
 .exclusive{
-	color:rgb(144, 78, 252) ;
+	color:rgb(0, 145, 202) ;
 }
 
 .btton{
@@ -22,8 +35,8 @@ body{
 
 .btton a{
     padding: 10px;
-    border: solid rgb(144, 78, 252)  2px;
-    background-color: rgb(144, 78, 252) ;
+    border: solid rgb(0, 145, 202)rgb(0, 145, 202) 2px;
+    background-color: rgb(0, 145, 202) ;
     border-radius: 4px;
     box-shadow: 0px 1px 6px 4px rgb(190, 190, 190);
 }
@@ -43,7 +56,7 @@ body{
 }
 #countdown span {
     font-weight: bold;
-    color:rgb(144, 78, 252) ;
+    color:rgb(0, 145, 202) ;
 }
 .smalltext {
     font-size: 12px;
@@ -54,7 +67,7 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 30px;
-    background-color: rgb(191, 181, 226);
+    background-color: rgb(181, 226, 226);
 }
 
 .cont{
@@ -73,4 +86,9 @@ body{
 .map{
     display: flex;
     justify-content: center;
+}
+
+.firstcontent{
+    margin: 20px;
+    margin-bottom: 50px;
 }
