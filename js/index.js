@@ -35,7 +35,7 @@ document.getElementById("map").addEventListener("click", function() {
 });
 
 document.getElementById("woasap").addEventListener("click", function(){
-	const url = "https://api.whatsapp.com/send?phone=573133510833&text=Hola%20Mariana%20confirmo%20mi%20asistencia%20a%20tus%2015"
+	const url = "https://api.whatsapp.com/send?phone=573212936982&text=Hola%20Mariana%20confirmo%20mi%20asistencia%20a%20tus%2015"
 
 	window.open(url, "_blank")
 });
