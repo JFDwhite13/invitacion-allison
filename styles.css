@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(228, 253, 250);
+	background-color: rgb(229, 252, 249);
 }
 
 .header h1,h2,h3,h4,h5,h6,p{
@@ -7,6 +7,9 @@ body{
 	font-optical-sizing: auto;
 	font-weight: 700;
 	text-align: center;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 
 .imag{
@@ -20,14 +23,23 @@ body{
 .imag img{
     height: 100px;
     width: 200px;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 
 .exclusive{
 	color:rgb(0, 145, 202) ;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 
 #exclusive{
 	color:rgb(0, 145, 202) ;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 
 
@@ -35,6 +47,9 @@ body{
     text-align: center;
     color: white;
     margin-bottom: 10px;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 
 .btton:hover{
@@ -62,10 +77,16 @@ body{
     text-align: center;
 	align-content: center;
     margin: 0 10px;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 #countdown span {
     font-weight: bold;
     color:rgb(0, 145, 202) ;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 .smalltext {
     font-size: 12px;
@@ -77,6 +98,7 @@ body{
     margin-bottom: 10px;
     padding: 30px;
     background-color: rgb(181, 226, 226);
+    
 }
 
 .cont{
@@ -91,6 +113,9 @@ body{
 .img img{
     height: 130px;
     width: 130px;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 
 
@@ -100,7 +125,8 @@ body{
 }
 
 .head{
-    margin-top: 40px;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(229, 252, 249)), url(img/pixelcut-export.jpeg) ;
 }
 
 .text2{
@@ -130,6 +156,9 @@ body{
 .repr{
     display: flex;
     justify-content: center;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 .reproductor {
     
@@ -140,7 +169,7 @@ body{
 
 }
 .reproductor::-webkit-media-controls-panel {
-    background-color: rgb(139, 222, 255) ; /* Color de fondo de los controles */
+    background-color: rgb(194, 237, 253) ; /* Color de fondo de los controles */
 }
 
 .vest{
@@ -152,6 +181,9 @@ body{
 .vest img{
     width: 140px ;
     height: 140px;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 
 .d p,h1{
@@ -172,8 +204,18 @@ body{
 .im2 img{
     width: 200px;
     height: 200px;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: subir 2s ease-in-out forwards;
 }
 
 .confirmar{
     padding-top: 20px;
+}
+
+@keyframes subir {
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
