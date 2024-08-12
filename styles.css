@@ -46,7 +46,6 @@ body{
 	color:rgb(0, 145, 202) ;
     transform: translateY(100%);
     opacity: 0;
-    border: 1px black solid;
     animation: subir 2s ease-in-out forwards;
 }
 
