@@ -3,6 +3,7 @@ const data = [["V6E7","Johan Forero y Pareja",2],
 ["X4D4","Cesar Forero, Esposa e hijos",5]];
 
 document.getElementById("btnn").addEventListener("click", ()=>{
+	event.preventDefault();
 	const ne = document.getElementById("coding").value;
 	const code = ne.toUpperCase();
 	buscar(code);
