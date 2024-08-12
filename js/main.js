@@ -1,5 +1,5 @@
 const data = [["V6E7","Johan Forero y Pareja",2],
-["S3Z1","Jhonatan, Esposa e hija",3],
+["S3Z1","Jhonatan Miranda, Esposa e hija",3],
 ["X4D4","Cesar Forero, Esposa e hijos",5]];
 
 document.getElementById("btnn").addEventListener("click", ()=>{

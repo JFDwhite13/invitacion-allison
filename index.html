@@ -12,23 +12,23 @@
 </head>
 <body>
     <div class="container">
-        <div class="login-box">
-            <h1>Invitación</h1>
-			<p>Junto con tu invitacion enviamos tu codigo de acceso, colocalo en el siguiente espacio</p>
-            <form>
-                <div class="user-box">
-                    <input type="text" name="" required="" id="coding">
-                    <label>Codigo de acceso</label>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="login-box">
+                    <h1>Invitación</h1>
+                    <p>Junto con tu invitacion enviamos tu codigo de acceso, colocalo en el siguiente espacio</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="coding">Codigo de acceso</label>
+                            <input type="text" class="form-control" id="coding" required>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block" id="btnn">
+                            Acceder
+                        </a>
+                        <p id="error"></p>
+                    </form>
                 </div>
-                <a href="#" class="btn-custom" id="btnn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Acceder
-                </a>
-				<p id="error"></p>
-            </form>
+            </div>
         </div>
     </div>
 

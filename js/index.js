@@ -48,4 +48,14 @@ window.onload = function() {
 	let transferdata=JSON.parse(localStorage.getItem('data'));
 
 	console.log(transferdata[1])
+
+    document.getElementById("name").innerHTML = transferdata[1];
+    document.getElementById("pases").innerHTML = `
+    <div class="mesa">
+        <p class="fs-3">Como eres importante para nosotros</p>
+        <h1 class="display-5">Hemos Destinado</h1>
+        <h1 class="display-5" id="exclusive-number">${transferdata[2]}</h1>
+        <p class="fs-3">Lugares para ti y tu familia en nuestra celebracion</p>
+    </div>
+`
 }

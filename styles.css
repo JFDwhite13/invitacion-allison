@@ -42,6 +42,16 @@ body{
     animation: subir 2s ease-in-out forwards;
 }
 
+#exclusive-number{
+	color:rgb(0, 145, 202) ;
+    transform: translateY(100%);
+    opacity: 0;
+    border: 1px black solid;
+    animation: subir 2s ease-in-out forwards;
+}
+
+
+
 
 .btton{
     text-align: center;
@@ -162,7 +172,7 @@ body{
 }
 .reproductor {
     
-    width: 50%; /* Ancho del reproductor */
+    width: 70%; /* Ancho del reproductor */
     border: none; /* Sin borde */
     border-radius: 0px ; /* Bordes redondeados */
     padding: 10px; /* Espaciado interno */
