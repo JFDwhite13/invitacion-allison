@@ -39,3 +39,13 @@ document.getElementById("woasap").addEventListener("click", function(){
 
 	window.open(url, "_blank")
 });
+
+window.onload = function() {
+	if(localStorage.getItem('data')){
+		console.log(localStorage.getItem('data'))
+	}
+
+	let transferdata=JSON.parse(localStorage.getItem('data'));
+
+	console.log(transferdata[1])
+}
