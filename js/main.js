@@ -13,11 +13,12 @@ function buscar(code){
 		if(data[i][0]==code){
 			console.log(data[i]);
 			finaldata = JSON.stringify(data[i]);
+			localStorage.setItem("data", finaldata);
+			window.location.href = "https://jfdwhite13.github.io/invitacion.html"
 			break;
+		}else{
+			document.getElementById("error").innerHTML = "No encontramos tu codigo, recarga la pagina y vuelve a intentar";
 		}
 	}
 
-	localStorage.setItem("data", finaldata);
-
-	
 }
