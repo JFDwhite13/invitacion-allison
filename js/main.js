@@ -37,7 +37,9 @@ const data = [["V6E7","Señora Ana Sofia Mahecha e Hijo",2],
 ["Y3D8","Julio Forero y Esposa",2],
 ["G8D5","Domingo Forero",1],
 ["H7M9","Luis Forero",1],
-["J6Y2","Osbaldo Forero, Esposa e Hija",3]];
+["J6Y2","Osbaldo Forero, Esposa e Hija",3],
+["P1H2","Maria Perez",1],
+["K6X2","Victor Perez",1]];
 
 document.getElementById("btnn").addEventListener("click", ()=>{
 	event.preventDefault();
