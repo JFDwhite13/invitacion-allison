@@ -40,7 +40,8 @@ const data = [["V6E7","Señora Ana Sofia Mahecha",1],
 ["X1X3","Danna Rojas y Angie Garzón",2],
 ["Z1Z2","Angelo Sumoza",1],
 ["Y1Y4","Roger Bravo",1],
-["L1L5","Jean Paul Lopez",1]];
+["L1L5","Jean Paul Lopez",1],
+["K3L1","Luis Useche y Esposa",2]];
 
 document.getElementById("btnn").addEventListener("click", ()=>{
 	event.preventDefault();
